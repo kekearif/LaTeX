@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		035389E82F2C73E37B356D83 /* Pods_LaTeXUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B8A428F419D99BE0B688FC /* Pods_LaTeXUITests.framework */; };
+		42B9BC691207707B0B846440 /* Pods_LaTeXTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B4AA5ACB01FB3D20EA3F29 /* Pods_LaTeXTests.framework */; };
+		9DBA4C1B20D2574C8DB3C45D /* Pods_LaTeX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415724413016EDF488AB865A /* Pods_LaTeX.framework */; };
+		A85F12A01DDEA63D00FE8DC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85F129F1DDEA63D00FE8DC7 /* AppDelegate.swift */; };
+		A85F12A21DDEA63D00FE8DC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85F12A11DDEA63D00FE8DC7 /* ViewController.swift */; };
+		A85F12A51DDEA63D00FE8DC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85F12A31DDEA63D00FE8DC7 /* Main.storyboard */; };
+		A85F12A71DDEA63D00FE8DC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85F12A61DDEA63D00FE8DC7 /* Assets.xcassets */; };
+		A85F12AA1DDEA63D00FE8DC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85F12A81DDEA63D00FE8DC7 /* LaunchScreen.storyboard */; };
+		A85F12B51DDEA63D00FE8DC7 /* LaTeXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85F12B41DDEA63D00FE8DC7 /* LaTeXTests.swift */; };
+		A85F12C01DDEA63D00FE8DC7 /* LaTeXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85F12BF1DDEA63D00FE8DC7 /* LaTeXUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A85F12B11DDEA63D00FE8DC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85F12941DDEA63D00FE8DC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A85F129B1DDEA63D00FE8DC7;
+			remoteInfo = LaTeX;
+		};
+		A85F12BC1DDEA63D00FE8DC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85F12941DDEA63D00FE8DC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A85F129B1DDEA63D00FE8DC7;
+			remoteInfo = LaTeX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B5766BB187027C6FF4C348A /* Pods-LaTeX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaTeX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LaTeX/Pods-LaTeX.debug.xcconfig"; sourceTree = "<group>"; };
+		415724413016EDF488AB865A /* Pods_LaTeX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaTeX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B4AA5ACB01FB3D20EA3F29 /* Pods_LaTeXTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaTeXTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DBB5A307AE472CFE3D27CE0 /* Pods-LaTeX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaTeX.release.xcconfig"; path = "Pods/Target Support Files/Pods-LaTeX/Pods-LaTeX.release.xcconfig"; sourceTree = "<group>"; };
+		A85F129C1DDEA63D00FE8DC7 /* LaTeX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaTeX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85F129F1DDEA63D00FE8DC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A85F12A11DDEA63D00FE8DC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A85F12A41DDEA63D00FE8DC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A85F12A61DDEA63D00FE8DC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A85F12A91DDEA63D00FE8DC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A85F12AB1DDEA63D00FE8DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A85F12B01DDEA63D00FE8DC7 /* LaTeXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaTeXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85F12B41DDEA63D00FE8DC7 /* LaTeXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaTeXTests.swift; sourceTree = "<group>"; };
+		A85F12B61DDEA63D00FE8DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A85F12BB1DDEA63D00FE8DC7 /* LaTeXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaTeXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85F12BF1DDEA63D00FE8DC7 /* LaTeXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaTeXUITests.swift; sourceTree = "<group>"; };
+		A85F12C11DDEA63D00FE8DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8ABD77F4CDD36DBF9CF6695 /* Pods-LaTeXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaTeXTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LaTeXTests/Pods-LaTeXTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE3215721B4B8C6A4B0AF6D2 /* Pods-LaTeXUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaTeXUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LaTeXUITests/Pods-LaTeXUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E07FF6CA0D1FC88DC5477D05 /* Pods-LaTeXUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaTeXUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LaTeXUITests/Pods-LaTeXUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F5B8A428F419D99BE0B688FC /* Pods_LaTeXUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaTeXUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF0CD4ED0168E97BBE6BDEC /* Pods-LaTeXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaTeXTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LaTeXTests/Pods-LaTeXTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A85F12991DDEA63D00FE8DC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DBA4C1B20D2574C8DB3C45D /* Pods_LaTeX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85F12AD1DDEA63D00FE8DC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B9BC691207707B0B846440 /* Pods_LaTeXTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85F12B81DDEA63D00FE8DC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035389E82F2C73E37B356D83 /* Pods_LaTeXUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20400556477D7D7EA6E98C0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				415724413016EDF488AB865A /* Pods_LaTeX.framework */,
+				51B4AA5ACB01FB3D20EA3F29 /* Pods_LaTeXTests.framework */,
+				F5B8A428F419D99BE0B688FC /* Pods_LaTeXUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B45A35530095D05A7D3EE81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B5766BB187027C6FF4C348A /* Pods-LaTeX.debug.xcconfig */,
+				7DBB5A307AE472CFE3D27CE0 /* Pods-LaTeX.release.xcconfig */,
+				C8ABD77F4CDD36DBF9CF6695 /* Pods-LaTeXTests.debug.xcconfig */,
+				FCF0CD4ED0168E97BBE6BDEC /* Pods-LaTeXTests.release.xcconfig */,
+				DE3215721B4B8C6A4B0AF6D2 /* Pods-LaTeXUITests.debug.xcconfig */,
+				E07FF6CA0D1FC88DC5477D05 /* Pods-LaTeXUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A85F12931DDEA63D00FE8DC7 = {
+			isa = PBXGroup;
+			children = (
+				A85F129E1DDEA63D00FE8DC7 /* LaTeX */,
+				A85F12B31DDEA63D00FE8DC7 /* LaTeXTests */,
+				A85F12BE1DDEA63D00FE8DC7 /* LaTeXUITests */,
+				A85F129D1DDEA63D00FE8DC7 /* Products */,
+				7B45A35530095D05A7D3EE81 /* Pods */,
+				20400556477D7D7EA6E98C0B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A85F129D1DDEA63D00FE8DC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A85F129C1DDEA63D00FE8DC7 /* LaTeX.app */,
+				A85F12B01DDEA63D00FE8DC7 /* LaTeXTests.xctest */,
+				A85F12BB1DDEA63D00FE8DC7 /* LaTeXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A85F129E1DDEA63D00FE8DC7 /* LaTeX */ = {
+			isa = PBXGroup;
+			children = (
+				A85F129F1DDEA63D00FE8DC7 /* AppDelegate.swift */,
+				A85F12A11DDEA63D00FE8DC7 /* ViewController.swift */,
+				A85F12A31DDEA63D00FE8DC7 /* Main.storyboard */,
+				A85F12A61DDEA63D00FE8DC7 /* Assets.xcassets */,
+				A85F12A81DDEA63D00FE8DC7 /* LaunchScreen.storyboard */,
+				A85F12AB1DDEA63D00FE8DC7 /* Info.plist */,
+			);
+			path = LaTeX;
+			sourceTree = "<group>";
+		};
+		A85F12B31DDEA63D00FE8DC7 /* LaTeXTests */ = {
+			isa = PBXGroup;
+			children = (
+				A85F12B41DDEA63D00FE8DC7 /* LaTeXTests.swift */,
+				A85F12B61DDEA63D00FE8DC7 /* Info.plist */,
+			);
+			path = LaTeXTests;
+			sourceTree = "<group>";
+		};
+		A85F12BE1DDEA63D00FE8DC7 /* LaTeXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A85F12BF1DDEA63D00FE8DC7 /* LaTeXUITests.swift */,
+				A85F12C11DDEA63D00FE8DC7 /* Info.plist */,
+			);
+			path = LaTeXUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A85F129B1DDEA63D00FE8DC7 /* LaTeX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85F12C41DDEA63D00FE8DC7 /* Build configuration list for PBXNativeTarget "LaTeX" */;
+			buildPhases = (
+				C3A554277D823A695300E38D /* [CP] Check Pods Manifest.lock */,
+				A85F12981DDEA63D00FE8DC7 /* Sources */,
+				A85F12991DDEA63D00FE8DC7 /* Frameworks */,
+				A85F129A1DDEA63D00FE8DC7 /* Resources */,
+				3D92FC9D40A4BE1604AAAAB9 /* [CP] Embed Pods Frameworks */,
+				0A66F4FCBFC65E725B4B0CDE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaTeX;
+			productName = LaTeX;
+			productReference = A85F129C1DDEA63D00FE8DC7 /* LaTeX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A85F12AF1DDEA63D00FE8DC7 /* LaTeXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85F12C71DDEA63D00FE8DC7 /* Build configuration list for PBXNativeTarget "LaTeXTests" */;
+			buildPhases = (
+				4EC509BC0885BCFB7A01F222 /* [CP] Check Pods Manifest.lock */,
+				A85F12AC1DDEA63D00FE8DC7 /* Sources */,
+				A85F12AD1DDEA63D00FE8DC7 /* Frameworks */,
+				A85F12AE1DDEA63D00FE8DC7 /* Resources */,
+				B236EFFFF9D755FA817AFA5A /* [CP] Embed Pods Frameworks */,
+				AE36CD05E9E83E83E182D19F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A85F12B21DDEA63D00FE8DC7 /* PBXTargetDependency */,
+			);
+			name = LaTeXTests;
+			productName = LaTeXTests;
+			productReference = A85F12B01DDEA63D00FE8DC7 /* LaTeXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A85F12BA1DDEA63D00FE8DC7 /* LaTeXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85F12CA1DDEA63D00FE8DC7 /* Build configuration list for PBXNativeTarget "LaTeXUITests" */;
+			buildPhases = (
+				CBE04C9B25F70604D203AB03 /* [CP] Check Pods Manifest.lock */,
+				A85F12B71DDEA63D00FE8DC7 /* Sources */,
+				A85F12B81DDEA63D00FE8DC7 /* Frameworks */,
+				A85F12B91DDEA63D00FE8DC7 /* Resources */,
+				8A4CA82EDC2F5B46551C0E60 /* [CP] Embed Pods Frameworks */,
+				A814B5A9FDDA0FE2E3F3DAF8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A85F12BD1DDEA63D00FE8DC7 /* PBXTargetDependency */,
+			);
+			name = LaTeXUITests;
+			productName = LaTeXUITests;
+			productReference = A85F12BB1DDEA63D00FE8DC7 /* LaTeXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A85F12941DDEA63D00FE8DC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Keke Arif";
+				TargetAttributes = {
+					A85F129B1DDEA63D00FE8DC7 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					A85F12AF1DDEA63D00FE8DC7 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A85F129B1DDEA63D00FE8DC7;
+					};
+					A85F12BA1DDEA63D00FE8DC7 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A85F129B1DDEA63D00FE8DC7;
+					};
+				};
+			};
+			buildConfigurationList = A85F12971DDEA63D00FE8DC7 /* Build configuration list for PBXProject "LaTeX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A85F12931DDEA63D00FE8DC7;
+			productRefGroup = A85F129D1DDEA63D00FE8DC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A85F129B1DDEA63D00FE8DC7 /* LaTeX */,
+				A85F12AF1DDEA63D00FE8DC7 /* LaTeXTests */,
+				A85F12BA1DDEA63D00FE8DC7 /* LaTeXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A85F129A1DDEA63D00FE8DC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85F12AA1DDEA63D00FE8DC7 /* LaunchScreen.storyboard in Resources */,
+				A85F12A71DDEA63D00FE8DC7 /* Assets.xcassets in Resources */,
+				A85F12A51DDEA63D00FE8DC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85F12AE1DDEA63D00FE8DC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85F12B91DDEA63D00FE8DC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A66F4FCBFC65E725B4B0CDE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LaTeX/Pods-LaTeX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D92FC9D40A4BE1604AAAAB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LaTeX/Pods-LaTeX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EC509BC0885BCFB7A01F222 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A4CA82EDC2F5B46551C0E60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LaTeXUITests/Pods-LaTeXUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A814B5A9FDDA0FE2E3F3DAF8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LaTeXUITests/Pods-LaTeXUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE36CD05E9E83E83E182D19F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LaTeXTests/Pods-LaTeXTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B236EFFFF9D755FA817AFA5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LaTeXTests/Pods-LaTeXTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3A554277D823A695300E38D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CBE04C9B25F70604D203AB03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A85F12981DDEA63D00FE8DC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85F12A21DDEA63D00FE8DC7 /* ViewController.swift in Sources */,
+				A85F12A01DDEA63D00FE8DC7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85F12AC1DDEA63D00FE8DC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85F12B51DDEA63D00FE8DC7 /* LaTeXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85F12B71DDEA63D00FE8DC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85F12C01DDEA63D00FE8DC7 /* LaTeXUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A85F12B21DDEA63D00FE8DC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A85F129B1DDEA63D00FE8DC7 /* LaTeX */;
+			targetProxy = A85F12B11DDEA63D00FE8DC7 /* PBXContainerItemProxy */;
+		};
+		A85F12BD1DDEA63D00FE8DC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A85F129B1DDEA63D00FE8DC7 /* LaTeX */;
+			targetProxy = A85F12BC1DDEA63D00FE8DC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A85F12A31DDEA63D00FE8DC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A85F12A41DDEA63D00FE8DC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A85F12A81DDEA63D00FE8DC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A85F12A91DDEA63D00FE8DC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A85F12C21DDEA63D00FE8DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A85F12C31DDEA63D00FE8DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A85F12C51DDEA63D00FE8DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B5766BB187027C6FF4C348A /* Pods-LaTeX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LaTeX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keke.LaTeX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A85F12C61DDEA63D00FE8DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DBB5A307AE472CFE3D27CE0 /* Pods-LaTeX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LaTeX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keke.LaTeX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A85F12C81DDEA63D00FE8DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8ABD77F4CDD36DBF9CF6695 /* Pods-LaTeXTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LaTeXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keke.LaTeXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaTeX.app/LaTeX";
+			};
+			name = Debug;
+		};
+		A85F12C91DDEA63D00FE8DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCF0CD4ED0168E97BBE6BDEC /* Pods-LaTeXTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LaTeXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keke.LaTeXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaTeX.app/LaTeX";
+			};
+			name = Release;
+		};
+		A85F12CB1DDEA63D00FE8DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE3215721B4B8C6A4B0AF6D2 /* Pods-LaTeXUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LaTeXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keke.LaTeXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LaTeX;
+			};
+			name = Debug;
+		};
+		A85F12CC1DDEA63D00FE8DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E07FF6CA0D1FC88DC5477D05 /* Pods-LaTeXUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LaTeXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keke.LaTeXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LaTeX;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A85F12971DDEA63D00FE8DC7 /* Build configuration list for PBXProject "LaTeX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85F12C21DDEA63D00FE8DC7 /* Debug */,
+				A85F12C31DDEA63D00FE8DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85F12C41DDEA63D00FE8DC7 /* Build configuration list for PBXNativeTarget "LaTeX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85F12C51DDEA63D00FE8DC7 /* Debug */,
+				A85F12C61DDEA63D00FE8DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85F12C71DDEA63D00FE8DC7 /* Build configuration list for PBXNativeTarget "LaTeXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85F12C81DDEA63D00FE8DC7 /* Debug */,
+				A85F12C91DDEA63D00FE8DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85F12CA1DDEA63D00FE8DC7 /* Build configuration list for PBXNativeTarget "LaTeXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85F12CB1DDEA63D00FE8DC7 /* Debug */,
+				A85F12CC1DDEA63D00FE8DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A85F12941DDEA63D00FE8DC7 /* Project object */;
+}

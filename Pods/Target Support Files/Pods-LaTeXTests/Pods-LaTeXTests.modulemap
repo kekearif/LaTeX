@@ -1,0 +1,6 @@
+framework module Pods_LaTeXTests {
+  umbrella header "Pods-LaTeXTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

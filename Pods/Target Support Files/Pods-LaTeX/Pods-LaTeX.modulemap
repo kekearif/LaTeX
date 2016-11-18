@@ -1,0 +1,6 @@
+framework module Pods_LaTeX {
+  umbrella header "Pods-LaTeX-umbrella.h"
+
+  export *
+  module * { export * }
+}
